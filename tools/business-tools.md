@@ -1,0 +1,151 @@
+# Business Tools
+
+Here is a list of tools that can be used for online businesses
+
+- [Free For Dev](https://free-for.dev/#/)
+- Ecommerce
+  - [Shopify](https://www.shopify.co.uk/)
+  - [Etsy](https://www.etsy.com/uk/)
+  - [Salesforce](https://www.salesforce.com/uk/)
+  - [BigCommerce](https://www.bigcommerce.co.uk/)
+  - [Magento](https://magento.com/)
+  - [WooCommerce](https://woocommerce.com/)
+  - [Squarespace](https://www.squarespace.com/)
+  - [Wix](https://www.wix.com/)
+  - [Weebly](https://www.weebly.com/uk)
+  - [PrestaShop](https://www.prestashop.com/en)
+  - [OpenCart](https://www.opencart.com/)
+  - [Volusion](https://www.volusion.com/)
+  - [3dcart](https://www.3dcart.com/)
+- POS
+  - [Ecrebo](https://www.ecrebo.com/)
+- CMS
+  - [Strapi](https://strapi.io/)
+  - [Contentful](https://www.contentful.com/)
+  - [WordPress](https://wordpress.com/)
+  - [Contentstack](https://www.contentstack.com/)
+  - [Amplience](https://amplience.com/)
+  - [Prismic](https://prismic.io/)
+  - [Sanity](https://www.sanity.io/)
+  - [Storyblok](https://www.storyblok.com/)
+  - [ButterCMS](https://buttercms.com/)
+  - [GraphCMS](https://graphcms.com/)
+  - [DatoCMS](https://www.datocms.com/)
+- Search engines
+  - [Algolia](https://www.algolia.com/)
+  - [Elasticsearch](https://www.elastic.co/)
+  - [Solr](https://lucene.apache.org/solr/)
+  - [Swiftype](https://swiftype.com/)
+  - [Sphinx](http://www.sphinxsearch.com/)
+  - [Amazon CloudSearch](https://aws.amazon.com/cloudsearch/)
+  - [Searchify](https://www.searchify.com/)
+  - [SearchSpring](https://searchspring.com/)
+- Personalisation
+  - [Dynamic Yield](https://www.dynamicyield.com/)
+  - [Monetate](https://www.monetate.com/)
+  - [Evergage](https://www.evergage.com/)
+  - [Qubit](https://www.qubit.com/)
+- Supply Chain
+  - [Blue Yonder](https://blueyonder.com/)
+  - [Comestri](https://www.comestri.com/)
+- Order Delivery Tracking
+  - [Bringg](https://www.bringg.com/)
+  - [Metapack](https://www.metapack.com)
+- Ecommerce Analytics
+  - [Sales Samurai](https://salesamurai.io/)
+  - [Ech Spy](https://echspy.com/)
+  - [ERank](https://erank.com/) - Etsy sales analytics
+- Monitoring Tools
+  - [Sentry](https://sentry.io/) - Frontend error monitoring
+  - [New Relic](https://newrelic.com/)
+  - [Datadog](https://www.datadoghq.com/)
+  - [AppDynamics](https://www.appdynamics.com/)
+  - [Noibu](https://noibu.com/) - Ecommerce frontend monitoring
+- Images
+  - [MidJourney](https://midjourney.com/) - AI Generation
+  - [Raw Pixel](https://www.rawpixel.com/) - Free stock images
+  - [Deep AI](https://deepai.org/) - AI Generation
+  - [Thumbly](https://thumbly.ai/) - YouTube thumbnails
+  - [Jasper AI](https://www.jasper.ai/art)
+- Image Editing
+  - [Fotor](https://www.fotor.com/)
+- Logos
+  - [Placeit](https://placeit.net/) - Marketplace
+  - [Looka](https://looka.com/) - AI Generation
+  - [Brandmark](https://brandmark.io/)
+  - [Logo Maker](https://www.logomaker.com/)
+  - [Logo Creator](https://www.logocreator.io/)
+- Illustrations & Icons
+  - [Undraw](https://undraw.co/)
+  - [Lord Icon](https://lordicon.com/)
+  - [Iconscout](https://iconscout.com/)
+- Design
+  - [Canva](https://www.canva.com/en_gb/)
+  - [Figma](https://www.figma.com/)
+  - [Sketch](https://www.sketch.com/)
+  - [Adobe XD](https://www.adobe.com/uk/products/xd.html)
+  - [InVision](https://www.invisionapp.com/)
+- Print on demand
+  - [Printify](https://printify.com)
+  - [Printful](https://www.printful.com/uk)
+- Voice over
+  - Well said lab - AI voice over
+- Video Generation
+  - [Pictory](https://pictory.ai/) - Video generation. Can take blog posts and turn them into video
+  - [Magisto](https://www.magisto.com/create-videos-in-minutes)
+  - [Synthesia](https://www.synthesia.io/)
+- Product Pictures
+  - [Pebblely](https://pebblely.com/)
+- Feature flags
+  - [Get Unleash](https://docs.getunleash.io/)
+  - [Split](https://www.split.io/)
+  - [Launch Darkly](https://launchdarkly.com/)
+- A/B Testing
+  - [Optimizely](https://www.optimizely.com/)
+  - [Monetate](https://monetate.com/)
+- CV Generator
+  - [FlowCV](https://flowcv.com/)
+  - [Kickresume](https://www.kickresume.com/)
+  - [Resume.io](https://resume.io/)
+  - [ResumeLab](https://resumelab.com/)
+  - [Resume Genius](https://resumegenius.com/)
+  - [Resume.com](https://www.resume.com/)
+  - [Resume Builder](https://www.resume-builder.net/)
+- VPN
+  - [Personal wireguard VPN](https://github.com/WireGuard/)
+    - Repo for ansible script [Algo VPN](https://github.com/trailofbits/algo)
+- Stock APIs
+  - [Alpha Vantage](https://www.alphavantage.co/)
+  - [Polygon](https://polygon.io/)
+  - [IEX Cloud](https://iexcloud.io/)
+  - [Finnhub](https://finnhub.io/)
+  - [Yahoo Finance](https://finance.yahoo.com/)
+
+- Database
+  - [Firebase](https://firebase.google.com/)
+  - [Supabase](https://supabase.io/)
+  - [MongoDB](https://www.mongodb.com/)
+  - [PostgreSQL](https://www.postgresql.org/)
+  - [MySQL](https://www.mysql.com/)
+  - [MariaDB](https://mariadb.org/)
+  - [Redis](https://redis.io/)
+  - [Cassandra](https://cassandra.apache.org/)
+  - [Couchbase](https://www.couchbase.com/)
+- FTP Server
+  - [SFTPGO](https://github.com/drakkan/sftpgo)
+- VueJS
+  - [Forms](https://vueformulate.com/)
+  - [Composables](https://vueuse.org/)
+  - [NuxtJS](https://nuxtjs.org/)
+  - [Vuetify](https://vuetifyjs.com/en/)
+  - [Vite](https://vitejs.dev/)
+  - [Vue Router](https://router.vuejs.org/)
+  - [Vuex](https://vuex.vuejs.org/)
+- ReactJS
+  - [NextJS](https://nextjs.org/)
+  - [Gatsby](https://www.gatsbyjs.com/)
+  - [React Router](https://reactrouter.com/)
+  - [Redux](https://redux.js.org/)
+  - [Material UI](https://material-ui.com/)
+- CSS
+  - [Tailwind](https://tailwindcss.com/)

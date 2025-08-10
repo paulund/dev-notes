@@ -1,0 +1,200 @@
+{
+  // ============================================================================
+  // EDITOR - Typography & Visual
+  // ============================================================================
+  "editor.fontFamily": "'JetBrains Mono', monospace",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 1.6,
+  "editor.letterSpacing": 0.5,
+  "editor.fontLigatures": true, // Enable font ligatures for better code readability
+
+  // ============================================================================
+  // EDITOR - Cursor & Animation
+  // ============================================================================
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 3,
+  "editor.smoothScrolling": true,
+
+  // ============================================================================
+  // EDITOR - Layout & Display
+  // ============================================================================
+  "editor.renderLineHighlight": "all",
+  "editor.rulers": [80, 120],
+  "editor.wordWrap": "off",
+  "editor.renderWhitespace": "boundary",
+  "editor.padding.top": 10,
+  "editor.padding.bottom": 10,
+  "editor.minimap.autohide": true,
+  "editor.occurrencesHighlight": "singleFile",
+  "editor.selectionHighlight": false,
+  "editor.bracketPairColorization.enabled": true, // Color-code matching brackets
+  "editor.guides.bracketPairs": "active", // Show bracket pair guides
+
+  // ============================================================================
+  // EDITOR - Formatting & Code Actions
+  // ============================================================================
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.linkedEditing": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+
+  // ============================================================================
+  // EDITOR - IntelliSense & Suggestions
+  // ============================================================================
+  "editor.suggestSelection": "first",
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "off"
+  },
+  "editor.smartSelect.selectLeadingAndTrailingWhitespace": false,
+  "editor.acceptSuggestionOnCommitCharacter": false, // Prevent accidental suggestion acceptance
+  "editor.acceptSuggestionOnEnter": "smart", // Better suggestion acceptance
+  "editor.tabCompletion": "on", // Enable tab completion
+  "editor.suggest.insertMode": "replace", // Replace suggestions instead of inserting
+
+  // ============================================================================
+  // EDITOR - Accessibility
+  // ============================================================================
+  "editor.accessibilitySupport": "off",
+
+  // ============================================================================
+  // WORKBENCH - UI Layout
+  // ============================================================================
+  "workbench.activityBar.location": "top",
+  "workbench.startupEditor": "welcomePage",
+  "workbench.statusBar.visible": true,
+  "workbench.layoutControl.enabled": false,
+  "workbench.tree.indent": 20,
+  "workbench.colorTheme": "Catppuccin Frappé",
+
+  // ============================================================================
+  // WINDOW - Display Settings
+  // ============================================================================
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "compact",
+  "window.newWindowDimensions": "maximized",
+
+  // ============================================================================
+  // FILES - Management & Performance
+  // ============================================================================
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000, // Auto-save after 1 second
+  "files.trimTrailingWhitespace": true, // Remove trailing whitespace on save
+  "files.insertFinalNewline": true, // Ensure files end with newline
+  "files.trimFinalNewlines": true, // Remove extra newlines at end of file
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/.hg/store/**": true,
+    "**/node_modules/**": true,
+    "**/vendor/**": true,
+    "**/storage/**": true
+  },
+
+  // ============================================================================
+  // SEARCH - Exclusions
+  // ============================================================================
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/vendor": true,
+    "**/storage": true,
+    "**/.git": true,
+    "**/*.code-search": true
+  },
+
+  // ============================================================================
+  // EXPLORER - File Management
+  // ============================================================================
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  // ============================================================================
+  // EXTENSIONS - Management
+  // ============================================================================
+  "extensions.autoUpdate": false,
+
+  // ============================================================================
+  // GIT - Version Control
+  // ============================================================================
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.suggestSmartCommit": false,
+  "git.replaceTagsWhenPull": true,
+  "githubPullRequests.pullBranch": "never",
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  // ============================================================================
+  // LANGUAGE SPECIFIC - Formatters & Rules
+  // ============================================================================
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[php]": {
+    "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+
+  // ============================================================================
+  // PLUGIN SPECIFIC - Extensions
+  // ============================================================================
+  "namespaceResolver.sortAlphabetically": true,
+
+  // Prettier configuration
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+
+  // PHP Intelephense
+  "intelephense.files.maxSize": 5000000,
+  "intelephense.completion.insertUseDeclaration": true,
+  "intelephense.completion.fullyQualifyGlobalConstantsAndFunctions": false,
+
+  // Terminal
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "'JetBrains Mono', monospace",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "block",
+
+  // Performance
+  "typescript.preferences.includePackageJsonAutoImports": "off",
+  "typescript.suggest.autoImports": false,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "editor.inlineSuggest.edits.allowCodeShifting": "never"
+}
