@@ -3,6 +3,7 @@
 Docker is great but some of the downloaded images and containers can take up a lot of space on your computer. Some of these images might be for older projects that you don't even develop on anymore, therefore there's no need to have the image locally. If for whatever reason you need to go back to that project docker allows you to easily download any images that aren't found locally.
 
 ## Find Docker Usage
+
 Using the command
 
 ```
@@ -24,7 +25,9 @@ Build Cache         0                   0                   0B                  
 As you can see from the above there are 3.2GB that can be reclaimed.
 
 ## Docker System Prune
+
 This command is a shortcut that can prune the images, containers and networks.
+
 ```
 $ docker system prune
 
@@ -40,6 +43,7 @@ Are you sure you want to continue? [y/N] y
 This will remove all the containers that aren't in used and all active volumes but there will still be a lot of times left over that might not be in use of any containers.
 
 ## Docker Image Prune
+
 To delete all images without at least one container associated with them you can use the command `docker image prune -a`
 
 ```
@@ -52,6 +56,7 @@ Are you sure you want to continue? [y/N] y
 If you now run the command `docker system df` you'll see that the only images you'll have locally are the active images.
 
 ## Docker Container Prune
+
 If you want to just remove any stopped container then you can do so by using the container prune command
 
 ```
@@ -68,6 +73,7 @@ $ docker container prune --filter "until=24h"
 ```
 
 ## Docker Volume Prune
+
 If you would like to remove the unused volumes then you can use the command `docker volume prune`.
 
 ```
@@ -78,3 +84,17 @@ Are you sure you want to continue? [y/N] y
 ```
 
 After doing all the above you can return to the `docker system df` command to save how much space you have saved.
+
+## Automating Docker Prune
+
+You can periodically reclaim space automatically with a cron job. Example: run a safe aggressive prune (removing unused images, containers, networks, build cache and dangling volumes) every Sunday at 03:00.
+
+```bash
+#!/bin/sh
+docker system prune -af --volumes 2>&1 | logger -t docker-prune
+```
+
+Edit the crontab
+```
+0 2 * * * /usr/bin/docker system prune -af --volumes >> /var/log/docker-prune.log 2>&1
+```
