@@ -23,6 +23,7 @@ class Log extends Model
 ```
 
 ## Add To Scheduler
+
 Add the following line to the scheduler to run prunable daily.
 
 ```php
