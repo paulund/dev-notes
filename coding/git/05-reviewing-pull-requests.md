@@ -52,7 +52,7 @@ Here's an example something that would be over engineered:
 
 ```javascript
 function add(a, b) {
-    return a + b;
+  return a + b;
 }
 ```
 
@@ -60,21 +60,21 @@ vs
 
 ```javascript
 class Addition {
-    constructor(a, b) {
-        this.a = a;
-        this.b = b;
-    }
+  constructor(a, b) {
+    this.a = a;
+    this.b = b;
+  }
 
-    validate() {
-        if (typeof this.a !== 'number' || typeof this.b !== 'number') {
-            throw new Error('Both inputs must be numbers');
-        }
+  validate() {
+    if (typeof this.a !== 'number' || typeof this.b !== 'number') {
+      throw new Error('Both inputs must be numbers');
     }
+  }
 
-    calculate() {
-        this.validate();
-        return this.a + this.b;
-    }
+  calculate() {
+    this.validate();
+    return this.a + this.b;
+  }
 }
 
 const addition = new Addition(1, 2);

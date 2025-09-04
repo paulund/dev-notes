@@ -2,7 +2,7 @@
 
 When working on a project it's important to define how you are going to version your project.
 
-*SemVer* is a versioning system that is used to communicate upgrades with your applications.
+_SemVer_ is a versioning system that is used to communicate upgrades with your applications.
 
 It works with 3 categories
 
