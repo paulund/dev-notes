@@ -196,5 +196,10 @@
   "typescript.preferences.includePackageJsonAutoImports": "off",
   "typescript.suggest.autoImports": false,
   "github.copilot.nextEditSuggestions.enabled": true,
-  "editor.inlineSuggest.edits.allowCodeShifting": "never"
+  "editor.inlineSuggest.edits.allowCodeShifting": "never",
+  
+  // ============================================================================
+  // CHAT - Features
+  // ============================================================================
+  "chat.useAgentSkills": true
 }
