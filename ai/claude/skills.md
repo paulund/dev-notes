@@ -22,6 +22,10 @@ To work around this limitation, you can create Claude skills that encapsulate th
 
 For example, you could create a "PHP Expert Skill" that contains all the PHP-specific instructions and coding standards. When an agent is working on PHP code, it can leverage the PHP Expert Skill to ensure it follows the correct conventions. Then create a separate "TypeScript Expert Skill" for TypeScript code. This skills can store all the relevant instructions and standards for that language. This will keep your *CLAUDE.md* file cleaner and more focused on high-level project instructions, while the skills handle the language-specific details.
 
+## Learn How to Create Claude Skills
+
+Here is a helpful guide on creating Claude skills from scratch: [Guide To Agent Skills](https://www.youtube.com/watch?v=fabAI1OKKww)
+
 ## Resources
 - [Claude Skills Documentation](https://claude.ai/docs/skills)
 - [Using Skills with Agents](https://claude.ai/docs/agents/using-skills)
